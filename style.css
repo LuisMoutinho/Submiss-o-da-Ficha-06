@@ -1,11 +1,12 @@
 
-    
+/* ediçao do primeiro titulo*/  
 h1 {
     color : #FFFFFF;
     text-align: left; 
     font-size: 60px;
     font-weight: normal; 
 }
+ /*ediçao do primeiro paragrafo de modo a ficar mais pequeno, aumentar a distancia entre linhas e juntar ao primeiro titulo */ 
 p {
     color : #BDBDBD;
     text-align: left; 
@@ -13,13 +14,16 @@ p {
     line-height: 1.6;
     margin-top: -10px;
 }
+ /* introduçao da fonte pretendida, mudança da cor de fundo e aumento da margem*/ 
 body{
     background-color : #070606;
     font-family:'Raleway', sans-serif; 
     margin: 60px;
 
 }
-
+ /* não sei porque é que isto aparece a azul no github 
+ mas ediçao do botao de modo a que seja curvo nas margens, diminuiçao da letra, alteraçao de cor e alinhar ao centro
+ */ 
 .button {
     background-color: #2B892E; 
     border: none;
@@ -31,7 +35,7 @@ body{
     display: inline-block;
     font-size: 12px;
 }
-
+ /*ediçao da imagem de modo a que nao perca qualidade, mantenha o aspect ratio e desça de forma a nao colar ao botao */ 
 img {
     margin-top: 60px;
     display: block;
