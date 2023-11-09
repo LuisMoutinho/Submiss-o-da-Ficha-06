@@ -24,7 +24,7 @@ body{
  /* não sei porque é que isto aparece a azul no github 
  mas ediçao do botao de modo a que seja curvo nas margens, diminuiçao da letra, alteraçao de cor e alinhar ao centro
  */ 
-.button {
+button {
     background-color: #2B892E; 
     border: none;
     border-radius: 29px;
